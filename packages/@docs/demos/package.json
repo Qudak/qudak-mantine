@@ -54,7 +54,6 @@
     "@mantine/core": "workspace:*",
     "@mantine/dates": "workspace:*",
     "@mantine/dropzone": "workspace:*",
-    "@mantine/form": "workspace:*",
     "@mantine/hooks": "workspace:*",
     "@mantine/notifications": "workspace:*",
     "@mantine/nprogress": "workspace:*",
@@ -62,6 +61,7 @@
     "@mantine/tiptap": "workspace:*",
     "@mantinex/demo": "workspace:*",
     "@mantinex/dev-icons": "workspace:*",
-    "@mantinex/shiki": "workspace:*"
+    "@mantinex/shiki": "workspace:*",
+    "@qudak/form": "workspace:*"
   }
 }
