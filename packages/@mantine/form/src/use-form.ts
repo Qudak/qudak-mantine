@@ -242,6 +242,7 @@ export function useForm<
     initialized: $values.initialized.current,
     values: $values.stateValues,
     getValues: $values.getValues,
+    getInitialValues: $values.getValuesSnapshot,
     setInitialValues: $values.setValuesSnapshot,
     initialize,
     setValues,

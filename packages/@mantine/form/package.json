@@ -1,8 +1,7 @@
 {
-  "name": "@mantine/form",
+  "name": "@qudak/form",
   "version": "7.12.1",
   "description": "Mantine form management library",
-  "homepage": "https://mantine.dev",
   "license": "MIT",
   "author": "Vitaly Rtishchev <rtivital@gmail.com>",
   "keywords": [
@@ -27,7 +26,7 @@
     }
   },
   "repository": {
-    "url": "https://github.com/mantinedev/mantine.git",
+    "url": "https://github.com/Qudak/qudak-mantine",
     "type": "git",
     "directory": "packages/@mantine/form"
   },
