@@ -1,6 +1,6 @@
 {
   "name": "@qudak/form",
-  "version": "7.12.1",
+  "version": "7.12.2-alpha.0",
   "description": "Mantine form management library",
   "license": "MIT",
   "author": "Vitaly Rtishchev <rtivital@gmail.com>",
