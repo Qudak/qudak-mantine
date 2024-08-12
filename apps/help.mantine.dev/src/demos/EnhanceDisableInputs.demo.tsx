@@ -1,12 +1,12 @@
 import { useState } from 'react';
+import { useForm } from '@qudak/form';
 import { Button, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
 import { Button, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 
 function Demo() {
   const [disabled, setDisabled] = useState(false);

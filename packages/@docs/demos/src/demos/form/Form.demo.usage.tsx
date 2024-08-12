@@ -1,12 +1,12 @@
 /* eslint-disable no-console */
 
+import { useForm } from '@qudak/form';
 import { Button, Checkbox, Group, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { Button, Checkbox, Group, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 
 function Demo() {
   const form = useForm({

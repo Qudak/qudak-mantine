@@ -1,12 +1,12 @@
 /* eslint-disable no-console */
 import { useEffect } from 'react';
+import { useForm } from '@qudak/form';
 import { Checkbox, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useEffect } from 'react';
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 import { TextInput, Checkbox } from '@mantine/core';
 
 interface FormValues {

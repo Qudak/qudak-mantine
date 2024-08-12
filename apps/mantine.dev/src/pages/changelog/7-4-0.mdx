@@ -181,8 +181,8 @@ Example with [TanStack Query](https://tanstack.com/query/latest) (react-query):
 
 ```tsx
 import { useEffect } from 'react';
+import { useForm } from '@qudak/form';
 import { useQuery } from '@tanstack/react-query';
-import { useForm } from '@mantine/form';
 
 function Demo() {
   const query = useQuery({
@@ -222,6 +222,7 @@ It is usually a good idea to set `readOnly` or `disabled` on all form fields bef
 Basic fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { valibotResolver } from 'mantine-form-valibot-resolver';
 import {
   email,
@@ -231,7 +232,6 @@ import {
   object,
   string,
 } from 'valibot';
-import { useForm } from '@mantine/form';
 
 const schema = object({
   name: string([minLength(2, 'Name should have at least 2 letters')]),
@@ -262,9 +262,9 @@ form.errors;
 Nested fields validation
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { valibotResolver } from 'mantine-form-valibot-resolver';
 import { minLength, object, string } from 'valibot';
-import { useForm } from '@mantine/form';
 
 const nestedSchema = object({
   nested: object({
@@ -293,9 +293,9 @@ form.errors;
 List fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { valibotResolver } from 'mantine-form-valibot-resolver';
 import { array, minLength, object, string } from 'valibot';
-import { useForm } from '@mantine/form';
 
 const listSchema = object({
   list: array(

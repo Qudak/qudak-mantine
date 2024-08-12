@@ -1,10 +1,10 @@
+import { useForm } from '@qudak/form';
 import { Button, NumberInput, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { NumberInput, TextInput, Button } from '@mantine/core';
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 
 interface FormValues {
   name: string;

@@ -9,8 +9,8 @@ export default Layout(MDX_DATA.createFormContext);
 `createFormContext` function creates context provider and hook to get form object from context:
 
 ```tsx
+import { createFormContext } from '@qudak/form';
 import { TextInput } from '@mantine/core';
-import { createFormContext } from '@mantine/form';
 
 // Definition of form values is required
 interface FormValues {
@@ -63,7 +63,7 @@ Usually it is a good idea to store form context in separate file to avoid depend
 
 ```tsx
 // form-context.ts file
-import { createFormContext } from '@mantine/form';
+import { createFormContext } from '@qudak/form';
 
 interface UserFormValues {
   age: number;

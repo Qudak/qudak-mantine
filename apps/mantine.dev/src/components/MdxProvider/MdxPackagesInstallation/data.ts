@@ -10,9 +10,9 @@ export const PACKAGES_DATA = [
     dependencies: ['@mantine/hooks', '@mantine/core'],
   },
   {
-    package: '@mantine/form',
+    package: '@qudak/form',
     description: 'Form management library',
-    dependencies: ['@mantine/form'],
+    dependencies: ['@qudak/form'],
   },
   {
     package: '@mantine/dates',

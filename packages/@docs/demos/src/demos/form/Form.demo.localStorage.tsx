@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
+import { useForm } from '@qudak/form';
 import { Box, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useEffect } from 'react';
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 import { TextInput, Box } from '@mantine/core';
 
 function Demo() {

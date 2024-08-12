@@ -1,10 +1,10 @@
+import { useForm } from '@qudak/form';
 import { Button, Group, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { randomId } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 import { TextInput, Button, Group } from '@mantine/core';
 import { randomId } from '@mantine/hooks';
 

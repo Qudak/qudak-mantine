@@ -1,6 +1,6 @@
 import React from 'react';
+import { isEmail, isNotEmpty, useForm } from '@qudak/form';
 import { Button, Group, TextInput } from '@mantine/core';
-import { isEmail, isNotEmpty, useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `

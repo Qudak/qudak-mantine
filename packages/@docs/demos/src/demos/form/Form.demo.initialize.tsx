@@ -1,10 +1,10 @@
+import { isInRange, isNotEmpty, useForm } from '@qudak/form';
 import { Button, NumberInput, TextInput } from '@mantine/core';
-import { isInRange, isNotEmpty, useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { Button, NumberInput, TextInput } from '@mantine/core';
-import { isInRange, isNotEmpty, useForm } from '@mantine/form';
+import { isInRange, isNotEmpty, useForm } from '@qudak/form';
 
 interface FormValues {
   name: string;

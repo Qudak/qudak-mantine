@@ -1,9 +1,9 @@
+import { hasLength, isEmail, isInRange, isNotEmpty, matches, useForm } from '@qudak/form';
 import { Button, Group, NumberInput, TextInput } from '@mantine/core';
-import { hasLength, isEmail, isInRange, isNotEmpty, matches, useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { useForm, isNotEmpty, isEmail, isInRange, hasLength, matches } from '@mantine/form';
+import { useForm, isNotEmpty, isEmail, isInRange, hasLength, matches } from '@qudak/form';
 import { Button, Group, TextInput, NumberInput } from '@mantine/core';
 
 function Demo() {

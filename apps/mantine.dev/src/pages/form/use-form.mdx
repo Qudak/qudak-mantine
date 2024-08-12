@@ -19,7 +19,7 @@ export default Layout(MDX_DATA.useForm);
 All examples below use the following example use-form hook.
 
 ```tsx
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 
 const form = useForm({
   mode: 'uncontrolled',
@@ -94,7 +94,7 @@ form.reorderListItem('fruits', { from: 1, to: 0 });
 [Form validation guide](/form/validation/)
 
 ```tsx
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 
 const form = useForm({
   mode: 'uncontrolled',
@@ -157,7 +157,7 @@ Wrapper function for form `onSubmit` and `onReset` event handler. `onSubmit` han
 that will be called with errors object when validation fails.
 
 ```tsx
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 
 function Demo() {
   const form = useForm({ mode: 'uncontrolled' });
@@ -234,8 +234,8 @@ form.resetDirty();
 `UseFormReturnType` can be used when you want to pass `form` as a prop to another component:
 
 ```tsx
+import { useForm, UseFormReturnType } from '@qudak/form';
 import { TextInput } from '@mantine/core';
-import { useForm, UseFormReturnType } from '@mantine/form';
 
 interface FormValues {
   name: string;

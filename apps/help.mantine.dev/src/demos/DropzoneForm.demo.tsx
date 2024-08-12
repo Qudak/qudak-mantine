@@ -1,10 +1,10 @@
+import { useForm } from '@qudak/form';
 import { Center, CloseButton, Text } from '@mantine/core';
 import { Dropzone, MIME_TYPES } from '@mantine/dropzone';
-import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 import { Dropzone, MIME_TYPES } from '@mantine/dropzone';
 import { Center, Text, CloseButton } from '@mantine/core';
 

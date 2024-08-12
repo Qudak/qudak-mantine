@@ -1,11 +1,11 @@
+import { useForm } from '@qudak/form';
 import { IconTrash } from '@tabler/icons-react';
 import { ActionIcon, Box, Button, Group, Switch, Text, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { randomId } from '@mantine/hooks';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 import { TextInput, Switch, Group, ActionIcon, Box, Text, Button } from '@mantine/core';
 import { randomId } from '@mantine/hooks';
 import { IconTrash } from '@tabler/icons-react';

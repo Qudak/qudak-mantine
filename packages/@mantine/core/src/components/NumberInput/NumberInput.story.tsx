@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import { useRef, useState } from 'react';
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 import { Button } from '../Button';
 import { Group } from '../Group';
 import { TextInput } from '../TextInput';

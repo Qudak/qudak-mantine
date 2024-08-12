@@ -1,12 +1,12 @@
 import { useState } from 'react';
+import { useForm } from '@qudak/form';
 import { Button, Code, Group, PasswordInput, Stepper, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
 import { Stepper, Button, Group, TextInput, PasswordInput, Code } from '@mantine/core';
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 
 function Demo() {
   const [active, setActive] = useState(0);

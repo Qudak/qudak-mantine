@@ -1,11 +1,11 @@
 /* eslint-disable no-console */
 
+import { FORM_INDEX, useForm } from '@qudak/form';
 import { Button, NumberInput, TextInput } from '@mantine/core';
-import { FORM_INDEX, useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { useForm, FORM_INDEX } from '@mantine/form';
+import { useForm, FORM_INDEX } from '@qudak/form';
 import { NumberInput, TextInput, Button } from '@mantine/core';
 
 function Demo() {

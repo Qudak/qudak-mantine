@@ -26,9 +26,9 @@ Installation:
 Basic fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { zodResolver } from 'mantine-form-zod-resolver';
 import { z } from 'zod';
-import { useForm } from '@mantine/form';
 
 const schema = z.object({
   name: z
@@ -62,9 +62,9 @@ form.errors;
 Nested fields validation
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { zodResolver } from 'mantine-form-zod-resolver';
 import { z } from 'zod';
-import { useForm } from '@mantine/form';
 
 const nestedSchema = z.object({
   nested: z.object({
@@ -94,9 +94,9 @@ form.errors;
 List fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { zodResolver } from 'mantine-form-zod-resolver';
 import { z } from 'zod';
-import { useForm } from '@mantine/form';
 
 const listSchema = z.object({
   list: z.array(
@@ -132,9 +132,9 @@ Installation:
 Basic fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { yupResolver } from 'mantine-form-yup-resolver';
 import * as yup from 'yup';
-import { useForm } from '@mantine/form';
 
 const schema = yup.object().shape({
   name: yup.string().min(2, 'Name should have at least 2 letters'),
@@ -169,9 +169,9 @@ form.errors;
 Nested fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { yupResolver } from 'mantine-form-yup-resolver';
 import * as yup from 'yup';
-import { useForm } from '@mantine/form';
 
 const nestedSchema = yup.object().shape({
   nested: yup.object().shape({
@@ -201,9 +201,9 @@ form.errors;
 List fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { yupResolver } from 'mantine-form-yup-resolver';
 import * as yup from 'yup';
-import { useForm } from '@mantine/form';
 
 const listSchema = yup.object().shape({
   list: yup.array().of(
@@ -239,9 +239,9 @@ Installation:
 Basic fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import Joi from 'joi';
 import { joiResolver } from 'mantine-form-joi-resolver';
-import { useForm } from '@mantine/form';
 
 const schema = Joi.object({
   name: Joi.string().min(2).messages({
@@ -281,9 +281,9 @@ form.errors;
 Nested fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import Joi from 'joi';
 import { joiResolver } from 'mantine-form-joi-resolver';
-import { useForm } from '@mantine/form';
 
 const nestedSchema = Joi.object({
   nested: Joi.object({
@@ -313,9 +313,9 @@ form.errors;
 List fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import Joi from 'joi';
 import { joiResolver } from 'mantine-form-joi-resolver';
-import { useForm } from '@mantine/form';
 
 const listSchema = Joi.object({
   list: Joi.array().items(
@@ -386,9 +386,9 @@ form.errors;
 Nested fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { superstructResolver } from 'mantine-form-superstruct-resolver';
 import * as s from 'superstruct';
-import { useForm } from '@mantine/form';
 
 const nestedSchema = s.object({
   nested: s.object({
@@ -416,9 +416,9 @@ form.errors;
 List fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { superstructResolver } from 'mantine-form-superstruct-resolver';
 import * as s from 'superstruct';
-import { useForm } from '@mantine/form';
 
 const listSchema = s.object({
   list: s.array(
@@ -452,9 +452,9 @@ Installation:
 Basic fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { valibotResolver } from 'mantine-form-valibot-resolver';
 import * as v from 'valibot';
-import { useForm } from '@mantine/form';
 
 const schema = v.object({
   name: v.pipe(
@@ -489,9 +489,9 @@ form.errors;
 Nested fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { valibotResolver } from 'mantine-form-valibot-resolver';
 import * as v from 'valibot';
-import { useForm } from '@mantine/form';
 
 const nestedSchema = v.object({
   nested: v.object({
@@ -521,9 +521,9 @@ form.errors;
 List fields validation:
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { valibotResolver } from 'mantine-form-valibot-resolver';
 import * as v from 'valibot';
-import { useForm } from '@mantine/form';
 
 const listSchema = v.object({
   list: v.array(
@@ -555,9 +555,9 @@ With TypeScript:
 You can use the `InferInput` type from the `valibot` library to get the type of the form data.
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { valibotResolver } from 'mantine-form-valibot-resolver';
 import * as v from 'valibot';
-import { useForm } from '@mantine/form';
 
 export const userSchema = v.object({
   email: v.pipe(v.string(), v.email()),

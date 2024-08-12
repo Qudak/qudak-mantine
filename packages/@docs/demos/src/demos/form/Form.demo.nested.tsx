@@ -1,9 +1,9 @@
+import { useForm } from '@qudak/form';
 import { Box, Checkbox, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 import { Box, Checkbox, TextInput } from '@mantine/core';
 
 function Demo() {

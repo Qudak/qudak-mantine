@@ -73,9 +73,9 @@ Example of zod resolver:
 <InstallScript packages="zod mantine-form-zod-resolver" />
 
 ```tsx
+import { useForm } from '@qudak/form';
 import { zodResolver } from 'mantine-form-zod-resolver';
 import { z } from 'zod';
-import { useForm } from '@mantine/form';
 
 const schema = z.object({
   name: z

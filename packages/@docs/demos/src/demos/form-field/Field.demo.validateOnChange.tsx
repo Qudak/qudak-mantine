@@ -1,10 +1,10 @@
+import { isEmail, useField } from '@qudak/form';
 import { TextInput } from '@mantine/core';
-import { isEmail, useField } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { TextInput } from '@mantine/core';
-import { useField, isEmail } from '@mantine/form';
+import { useField, isEmail } from '@qudak/form';
 
 function Demo() {
   const field = useField({

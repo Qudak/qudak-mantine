@@ -1,11 +1,11 @@
 import { useState } from 'react';
+import { useForm } from '@qudak/form';
 import { Button, Code, TextInput } from '@mantine/core';
-import { useForm } from '@mantine/form';
 import { MantineDemo } from '@mantinex/demo';
 
 const code = `
 import { useState } from 'react';
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 import { TextInput, Button, Code } from '@mantine/core';
 
 function Demo() {

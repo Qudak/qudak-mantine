@@ -12,7 +12,7 @@ The mechanism of form actions is similar to [notifications system](/x/notificati
 To use form actions, set `name` property in [use-form](/form/use-form/) settings:
 
 ```tsx
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 
 export interface DemoFormValues {
   name: string;
@@ -35,7 +35,7 @@ Then call `createFormActions` function with the same form name as specified in `
 
 ```tsx
 // Import type of form values from the file where you defined useForm
-import { createFormActions } from '@mantine/form';
+import { createFormActions } from '@qudak/form';
 import type { DemoFormValues } from './DemoForm';
 
 export const demoFormActions =
@@ -76,7 +76,7 @@ function ExternalComponent() {
 Form name must be a string that contains only letters, numbers and dashes:
 
 ```tsx
-import { useForm } from '@mantine/form';
+import { useForm } from '@qudak/form';
 
 // ✅ Valid form name
 const valid = useForm({ name: 'valid-FORM-name-10' mode: 'uncontrolled' });

@@ -2,6 +2,9 @@ const DOCS_PACKAGES = ['demos', 'styles-api'];
 const TESTS_PACKAGES = ['tests-core', 'tests-dates'];
 
 export function getPackageName(input: string) {
+  if (input.startsWith('@qudak')) {
+    return input.replace('@qudak', '@mantine');
+  }
   if (input.startsWith('@')) {
     return input;
   }
