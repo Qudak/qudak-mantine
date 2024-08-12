@@ -25,8 +25,15 @@
       }
     }
   },
+  "files": [
+    "esm/**/*",
+    "lib/**/*",
+    "cjs/**/*",
+    "*.json",
+    "*.md"
+  ],
   "repository": {
-    "url": "https://github.com/Qudak/qudak-mantine",
+    "url": "git+https://github.com/Qudak/qudak-mantine.git",
     "type": "git",
     "directory": "packages/@mantine/form"
   },
